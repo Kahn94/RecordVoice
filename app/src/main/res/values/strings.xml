@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">RecordVoice</string>
+    <string name="time_seek">00:00</string>
+    <string name="main_title">Диктофон</string>
+
+    <string-array name="page_main_title_array">
+        <item>Запись</item>
+        <item>Архив</item>
+    </string-array>
 </resources>

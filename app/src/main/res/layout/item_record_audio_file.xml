@@ -1,0 +1,51 @@
+<androidx.percentlayout.widget.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/image_record_file"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="start"
+        app:srcCompat="@mipmap/ic_play_record_voice" />
+
+    <TextView
+        android:id="@+id/file_record_name_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toEndOf="@+id/image_record_file"
+        android:layout_toRightOf="@+id/image_record_file"
+        android:textSize="15sp"
+        tools:text="file1.ogg" />
+
+    <TextView
+        android:id="@+id/file_record_size_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/file_record_name_item"
+        android:layout_toEndOf="@+id/image_record_file"
+        android:layout_toRightOf="@+id/image_record_file"
+        android:textSize="15sp"
+        tools:text="150 Kb" />
+
+    <TextView
+        android:id="@+id/file_record_date_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/file_record_name_item"
+        android:textSize="15sp"
+        tools:text="31.05.2019 10:27:48" />
+
+</androidx.percentlayout.widget.PercentRelativeLayout>
